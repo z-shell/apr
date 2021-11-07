@@ -1,48 +1,47 @@
 {
-    "_from": "apr@^1.6.1",
-    "_id": "zsh-apr@1.6.1",
+    "_from": "apr@^1.7.0",
+    "_id": "zsh-apr@1.7.0",
     "_inBundle": false,
     "_location": "/zsh-apr",
     "_phantomChildren": {},
     "_requested": {
         "type": "range",
         "registry": true,
-        "raw": "apr@^1.6.1",
+        "raw": "apr@^1.7.0",
         "name": "apr",
         "escapedName": "apr",
-        "rawSpec": "^1.6.1",
+        "rawSpec": "^1.7.0",
         "saveSpec": null,
-        "fetchSpec": "^1.6.1"
+        "fetchSpec": "^1.7.0"
     },
     "_requiredBy": [],
-    "_resolved": "https://github.com/apr/apr/archive/v1.6.1.tar.gz",
-    "_shasum": "37e8f4207e2b43bed3cb1726d3919b5f3ff4ffa0",
-    "_spec": "apr@^1.6.1",
+    "_resolved": "https://github.com/apache/apr/archive/1.7.0.tar.gz",
+    "_shasum": "48e9dbf45ae3fdc7b491259ffb6ccf7d63049ffacbc1c0977cced095e4c2d5a2",
+    "_spec": "apr@^1.7.0",
     "_where": "/root/github2/pkg-apr",
     "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
     "bugs": {
-        "url": "https://github.com/apr/apr/issues"
+        "url": "https://github.com/apache/apr/issues"
     },
     "contributors": [],
     "dependencies": {},
     "deprecated": false,
-    "description": "Simple Python version management",
+    "description": "Apache Portable Runtime",
     "devDependencies": {},
     "directories": {
         "test": "test"
     },
-    "homepage": "https://github.com/apr/apr",
+    "homepage": "https://github.com/apache/apr",
     "keywords": [
-        "version management",
-        "python version management",
+        "apache portable runtime",
         "zsh"
     ],
     "license": "MIT",
     "name": "zsh-apr",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "zsh-data": {
         "plugin-info": {
-            "version": "1.6.1",
+            "version": "1.7.0",
             "requires": "monitor",
             "url": "https://apr.apache.org/download.cgi"
 
