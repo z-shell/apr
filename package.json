@@ -16,7 +16,7 @@
     },
     "_requiredBy": [],
     "_resolved": "https://github.com/apache/apr/archive/1.7.0.tar.gz",
-    "_shasum": "48e9dbf45ae3fdc7b491259ffb6ccf7d63049ffacbc1c0977cced095e4c2d5a2",
+    "_shasum": "caac4a92d51b211b0c1374217e4fc64ca8142288",
     "_spec": "apr@^1.7.0",
     "_where": "/root/github2/pkg-apr",
     "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
