@@ -31,7 +31,7 @@
     "directories": {
         "test": "test"
     },
-    "homepage": "https://github.com/apache/apr",
+    "homepage": "https://github.com/zi-packages",
     "keywords": [
         "apache portable runtime",
         "zsh"
@@ -46,7 +46,7 @@
             "url": "https://apr.apache.org/download.cgi"
 
         },
-        "zplugin-ices": {
+        "zi-ices": {
             "default": {
                 "is-snippet": "",
                 "lucid": "",

@@ -1,40 +1,50 @@
-# `APACHE/APR` ZINIT PACKAGE
-
-## Homepage link: [apache/apr](https://github.com/apache/apr)
-
 | **Package source:** |  Source Tarball  | Binary | Git | Node | Gem |
-|:-------------------:|:----------------:|:------:|:---:|:----:|:---:|
+| :-----------------: | :--------------: | :----: | :-: | :--: | :-: |
 |     **Status:**     | + <br> (default) |   -    |  +  |  –   |  –  |
 
-[Zinit](https://github.com/z-shell/zinit) can use the NPM package registry
-to automatically:
+- [Introduction](#introduction)
+- [Install](#install)
+  - [Available `pack''` invocations](#available-pack-invocations)
+  - [Default Profile](#default-profile)
+
+# Introduction
+
+> **[?]**
+> This repository not compatible with previous versions (zplugin, zinit).
+>
+> Please upgrade to [ZI](https://github.com/z-shell-zi)
+
+The [apache/apr](https://github.com/apache/apr) zsh package than can use the NPM package registry to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
   - there can be multiple lists of ices,
-  - the ice lists are stored in *profiles*; there's at least one profile, *default*,
-  - the ices can be selectively overriden.
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
 
-Example invocations that'll install
+# Install
+
+## Available `pack''` invocations
+
 [apache/apr](https://github.com/apache/apr) either from the release archive
 or from Git repository:
 
 ```zsh
 # Download, build and install the latest Apache Portable Runtime source tarball
-zinit pack for apr
+zi pack for apr
 ```
 
 ## Default Profile
 
 Provides the Apache Portable Runtime library by compiling and installing it to
-the `$ZPFX` directory (`~/.zinit/polaris` by default). It uses the
+the `$ZPFX` directory (`~/.zi/polaris` by default). It uses the
 [z-shell/z-a-as-monitor](https://github.com/z-shell/z-a-as-monitor) annex to
 download the latest Apache Portable Runtime tarball.
 
-The Zinit command executed will be equivalent to:
+The ZI command executed will be equivalent to:
 
 ```zsh
-zinit as"null|monitor" dlink"https://.*/apr-%VERSION%.tar.bz2" \
+zi as"null|monitor" dlink"https://.*/apr-%VERSION%.tar.bz2" \
     atclone'zpextract --move --auto; print -P \\n%F{75}Building Apache Portable Runtime...\\n%f; ./configure \
         --prefix="$ZPFX" >/dev/null && make >/dev/null && print -P \
         \\n%F{75}Installing Apache Portable Runtime to $ZPFX...\\n%f && make install >/dev/null && print -P \
@@ -42,6 +52,5 @@ zinit as"null|monitor" dlink"https://.*/apr-%VERSION%.tar.bz2" \
         print -P \\n%F{160}Installation of Apache Portable Runtime failed.%f' \
     atpull'%atclone' for \
         https://apr.apache.org/download.cgi
+``
 ```
-
-<!-- vim:set ft=markdown tw=80 fo+=an1 autoindent: -->
