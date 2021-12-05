@@ -8,34 +8,34 @@
 
 - [Introduction](#introduction)
 - [Install](#install)
-	- [Available `pack''` invocations](#available-pack-invocations)
-	- [Default Profile](#default-profile)
+  - [Available `pack''` invocations](#available-pack-invocations)
+  - [Default Profile](#default-profile)
 
-# Introduction
+## Introduction
 
 > **[?]**
 > This repository not compatible with previous versions (zplugin, zinit).
 >
 > Please upgrade to [ZI](https://github.com/z-shell-zi)
 
-The [apache/apr](https://github.com/apache/apr) zsh package than can use the NPM package registry to automatically:
+The [apache/apr](https://github.com/apache/apr) zsh package that can use the NPM package registry to automatically:
 
--   get the plugin's Git repository OR release-package URL,
--   get the list of the recommended ices for the plugin,
-    -   there can be multiple lists of ices,
-    -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
-    -   the ices can be selectively overridden.
+- get the plugin's Git repository OR release-package URL,
+- get the list of the recommended ices for the plugin,
+  - there can be multiple lists of ices,
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
 
-# Install
+## Install
 
-## Available `pack''` invocations
+### Available `pack''` invocations
 
 ```zsh
 # Download, build and install the latest Apache Portable Runtime source tarball
 zi pack for apr
 ```
 
-## Default Profile
+### Default Profile
 
 Provides the Apache Portable Runtime library by compiling and installing it to
 the `$ZPFX` directory (`~/.zi/polaris` by default). It uses the
