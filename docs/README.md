@@ -1,6 +1,6 @@
 <h2 align="center">
   <a href="https://github.com/z-shell/zi">
-    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
   </a>
 ❮ ZI ❯ Package - Apr
 </h2>
@@ -12,19 +12,6 @@
 |     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
 
 </h3>
-
-- [Available `pack''` invocations](#available-pack-invocations)
-- [Default Profile](#default-profile)
-
-> This repository compatible with [ZI](https://github.com/z-shell-zi)
-
-The [apache/apr](https://github.com/apache/apr) zsh package that can use the NPM package registry to automatically:
-
-- get the plugin's Git repository OR release-package URL,
-- get the list of the recommended ices for the plugin,
-  - there can be multiple lists of ices,
-  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
-  - the ices can be selectively overridden.
 
 ### Available `pack''` invocations
 
@@ -50,3 +37,15 @@ zi as"null|monitor" dlink"https://.*/apr-%VERSION%.tar.bz2" \
     atpull'%atclone' for \
         https://apr.apache.org/download.cgi
 ```
+
+---
+
+> This repository compatible with [ZI](https://github.com/z-shell/zi)
+
+The [apache/apr](https://github.com/apache/apr) zsh package that can use the NPM package registry to automatically:
+
+- get the plugin's Git repository OR release-package URL,
+- get the list of the recommended ices for the plugin,
+  - there can be multiple lists of ices,
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
