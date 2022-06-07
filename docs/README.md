@@ -1,17 +1,18 @@
-<h2 align="center">
+<div align="center"><table>
+  <tr><td><h1>
   <a href="https://github.com/z-shell/zi">
     <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
   </a>
-❮ ZI ❯ Package - Apr
-</h2>
+  ❮ ZI ❯ Package - Apr
+  </h1>
 
-<h3 align="center">
+<h2 align="center">
   
 | **Package source:** |        Source Tarball        | Binary |        Git         | Node | Gem |
 | :-----------------: | :--------------------------: | :----: | :----------------: | :--: | :-: |
 |     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
 
-</h3>
+</h2></td></tr></table></div>
 
 ### Available `pack''` invocations
 
@@ -42,7 +43,7 @@ zi as"null|monitor" dlink"https://.*/apr-%VERSION%.tar.bz2" \
 
 > This repository compatible with [ZI](https://github.com/z-shell/zi)
 
-The [apache/apr](https://github.com/apache/apr) zsh package that can use the NPM package registry to automatically:
+The [apache/apr](https://github.com/apache/apr) zsh package that can use [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
