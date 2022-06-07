@@ -1,29 +1,29 @@
 {
-    "name": "zsh-apr",
-    "version": "1.7.0",
-    "contributors": [],
-    "dependencies": {},
-    "deprecated": false,
-    "description": "Apache Portable Runtime",
-    "devDependencies": {},
-    "license": "MIT",
-    "homepage": "https://github.com/z-package",
-    "keywords": [
-        "apache portable runtime",
-        "zsh"
-    ],
-    "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
-    "bugs": {
-        "url": "https://github.com/apache/apr/issues"
+  "name": "zsh-apr",
+  "version": "1.7.0",
+  "contributors": [],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Apache Portable Runtime",
+  "devDependencies": {},
+  "license": "MIT",
+  "homepage": "https://github.com/z-package",
+  "keywords": [
+    "apache portable runtime",
+    "zsh"
+  ],
+  "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
+  "bugs": {
+    "url": "https://github.com/apache/apr/issues"
+  },
+  "zsh-data": {
+    "plugin-info": {
+      "version": "1.7.0",
+      "requires": "monitor",
+      "url": "https://apr.apache.org/download.cgi"
     },
-    "zsh-data": {
-      "plugin-info": {
-        "version": "1.7.0",
-        "requires": "monitor",
-        "url": "https://apr.apache.org/download.cgi"
-      },
-      "zi-ices": {
-        "default": {
+    "zi-ices": {
+      "default": {
         "is-snippet": "",
         "lucid": "",
         "id-as": "apr",
