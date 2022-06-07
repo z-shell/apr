@@ -1,19 +1,17 @@
-<div align="center"><table align="center">
-  <tr><td align="center">
-    <h1 align="center">
-      <a href="https://github.com/z-shell/zi">
-        <img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
-      </a>
-      ❮ ZI ❯ Package - Apr
-    </h1><h2>
+<div align="center"><table><tr><td>
+<h1><a href="https://github.com/z-shell/zi">
+<img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="60px" height="60px" /></a>
+  ❮ ZI ❯ Package - Apr
+</h1>
+<h3 align="center">
     
 | **Package source:** |        Source Tarball        | Binary |        Git         | Node | Gem |
 | :-----------------: | :--------------------------: | :----: | :----------------: | :--: | :-: |
 |     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
 
-</h2>
-    <p><img align="center" src="https://user-images.githubusercontent.com/59910950/172339363-8a890ff1-5db7-4aa7-a674-77b72663cbcd.png" alt="zi apr package" width="100%" height="auto" /></p>
-    </td></tr></table></div>
+</h3>
+<p><img align="center" src="https://user-images.githubusercontent.com/59910950/172339363-8a890ff1-5db7-4aa7-a674-77b72663cbcd.png" alt="zi apr package" width="100%" height="auto" /></p>
+</td></tr></table></div>
 
 ### Available `pack''` invocations
 
