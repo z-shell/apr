@@ -19,7 +19,7 @@
     "zsh-data": {
       "plugin-info": {
         "version": "1.7.0",
-        "requires": "readurl|make",
+        "requires": "readurl",
         "url": "https://apr.apache.org/download.cgi"
       },
       "zi-ices": {
