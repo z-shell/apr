@@ -28,7 +28,7 @@
         "lucid": "",
         "as": "readurl|null",
         "dlink": "https://.*/apr-%VERSION%.tar.bz2",
-        "atclone": "ziextract --move --auto; +zi-message 'Building Apache Portable Runtime...'; ./configure --prefix='$ZPFX' >/dev/null && make >/dev/null && +zi-message 'Installing Apache Portable Runtime to \$ZPFX...' && make install >/dev/null && +zi-meddage '{ok}Installation of Apache Portable Runtime succeeded{rst}' || +zi-message '{error}Installation of Apache Portable Runtime failed{rst}",
+        "atclone": "ziextract --move --auto; +zi-message 'Building Apache Portable Runtime...'; ./configure --prefix='$ZPFX' >/dev/null && make >/dev/null && +zi-message 'Installing Apache Portable Runtime to $ZPFX...' && make install >/dev/null && +zi-message '{ok}Installation of Apache Portable Runtime succeeded{rst}' || +zi-message '{error}Installation of Apache Portable Runtime failed{rst}'",
         "atpull": "%atclone",
         "nocompile": "!"
       }
