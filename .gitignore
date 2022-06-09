@@ -7,7 +7,7 @@
 *.code-workspace
 
 # Trunk
-.trunk/out
+.trunk/out/*
 
 # Exclude for security reasons
 .history/
