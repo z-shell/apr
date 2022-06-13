@@ -1,11 +1,6 @@
 {
   "name": "zsh-apr",
-  "version": "1.7.0",
-  "contributors": [],
-  "dependencies": {},
-  "deprecated": false,
   "description": "Apache Portable Runtime",
-  "devDependencies": {},
   "license": "MIT",
   "homepage": "https://github.com/z-package",
   "keywords": [
@@ -18,8 +13,7 @@
   },
   "zsh-data": {
     "plugin-info": {
-      "version": "1.7.0",
-      "requires": "monitor",
+      "requires": "rdl",
       "url": "https://apr.apache.org/download.cgi"
     },
     "zi-ices": {
@@ -29,8 +23,9 @@
         "id-as": "apr",
         "as": "readurl|null",
         "dlink": "https://.*/apr-%VERSION%.tar.bz2",
-        "atclone": "ziextract --move --auto; +zi-message 'Building Apache Portable Runtime...'; ./configure --prefix='$ZPFX' >/dev/null && make >/dev/null && +zi-message 'Installing Apache Portable Runtime to $ZPFX...' && make install >/dev/null && +zi-message '{ok}Installation of Apache Portable Runtime succeeded{rst}' || +zi-message '{error}Installation of Apache Portable Runtime failed{rst}'",
+        "atclone": "ziextract --move --auto; +zi-message 'Building Apache Portable Runtime...'; ./configure --prefix='$ZPFX' &>/dev/null && make &>/dev/null && +zi-message 'Installing Apache Portable Runtime to $ZPFX...' && make install &>/dev/null && +zi-message '{ok}Installation of Apache Portable Runtime succeeded{rst}' || +zi-message '{error}Installation of Apache Portable Runtime failed{rst}'",
         "atpull": "%atclone",
+        "countdown": "",
         "nocompile": "!"
       }
     }
