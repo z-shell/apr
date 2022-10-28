@@ -40,7 +40,7 @@ Provides the Apache Portable Runtime library by compiling and installing it to t
 The ZI command executed will be equivalent to:
 
 ```zsh
-zi as"null|monitor" dlink"https://.*/apr-%VERSION%.tar.bz2" \
+zi as"null|readurl" dlink"https://.*/apr-%VERSION%.tar.bz2" \
   atclone'ziextract --move --auto; print -P \\n%F{75}Building Apache Portable Runtime...\\n%f; ./configure \
     --prefix="$ZPFX" >/dev/null && make >/dev/null && print -P \
     \\n%F{75}Installing Apache Portable Runtime to $ZPFX...\\n%f && make install >/dev/null && print -P \
@@ -52,7 +52,9 @@ zi as"null|monitor" dlink"https://.*/apr-%VERSION%.tar.bz2" \
 
 ---
 
-> This repository compatible with [ZI](https://github.com/z-shell/zi)
+
+> **Note**
+>- This repository compatible with [ZI](https://github.com/z-shell/zi)
 
 The [apache/apr](https://github.com/apache/apr) zsh package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
 
