@@ -2,7 +2,7 @@
   <h1 align="center">
     <p><a href="https://github.com/z-shell/zi">
     <img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="60px" height="60px" /></a>
-  ❮ ZI ❯ Package - Apr </p>
+  ❮ Zi Package - Apr ❯</p>
 </h1>
 <h3 align="center">
 <table>
@@ -37,7 +37,7 @@ zi pack for apr
 
 Provides the Apache Portable Runtime library by compiling and installing it to the `$ZPFX` directory (`~/.zi/polaris` by default). It uses the [z-shell/z-a-readurl](https://github.com/z-shell/z-a-readurl) annex to download the latest Apache Portable Runtime tarball.
 
-The ZI command executed will be equivalent to:
+The Zi command executed will be equivalent to:
 
 ```zsh
 zi as"null|readurl" dlink"https://.*/apr-%VERSION%.tar.bz2" \
@@ -54,7 +54,7 @@ zi as"null|readurl" dlink"https://.*/apr-%VERSION%.tar.bz2" \
 
 
 > **Note**
->- This repository compatible with [ZI](https://github.com/z-shell/zi)
+>- This repository compatible with [Zi](https://github.com/z-shell/zi)
 
 The [apache/apr](https://github.com/apache/apr) zsh package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
 
