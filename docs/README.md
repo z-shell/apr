@@ -52,9 +52,9 @@ zi as"null|readurl" dlink"https://.*/apr-%VERSION%.tar.bz2" \
 
 ---
 
-
 > **Note**
->- This repository compatible with [Zi](https://github.com/z-shell/zi)
+>
+> - This repository compatible with [Zi](https://github.com/z-shell/zi)
 
 The [apache/apr](https://github.com/apache/apr) zsh package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
 
