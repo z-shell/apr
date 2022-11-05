@@ -27,6 +27,17 @@
         "atpull": "%atclone",
         "countdown": "",
         "nocompile": "!"
+      },
+      "apr-util": {
+        "is-snippet": "",
+        "lucid": "",
+        "id-as": "apr-util",
+        "as": "readurl|null",
+        "dlink": "https://.*/apr-util-%VERSION%.tar.bz2",
+        "atclone": "ziextract --move --auto; +zi-message 'Building Apache Portable Runtime APR-util...'; ./configure --prefix=$ZPFX && make; +zi-message 'Testing Apache Portable Runtime APR-util...' && make test && +zi-message 'Installing Apache Portable Runtime to $ZPFX...' && make install && +zi-message '{ok}Installation of Apache Portable Runtime APR-util succeeded{rst}' || +zi-message '{error}Installation of Apache Portable Runtime APR-util failed{rst}'",
+        "atpull": "%atclone",
+        "countdown": "",
+        "nocompile": "!"
       }
     }
   }
